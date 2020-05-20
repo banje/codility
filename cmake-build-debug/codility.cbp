@@ -17,16 +17,6 @@
 					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Banje/CLionProjects/codility/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Banje/CLionProjects/codility/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Banje/CLionProjects/codility/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Banje/CLionProjects/codility/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Banje/CLionProjects/codility/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Banje/CLionProjects/codility/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="codility">
 				<Option output="C:/Users/Banje/CLionProjects/codility/cmake-build-debug/codility.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Banje/CLionProjects/codility/cmake-build-debug"/>
@@ -279,6 +269,88 @@
 					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Banje/CLionProjects/codility/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="L04-2">
+				<Option output="C:/Users/Banje/CLionProjects/codility/cmake-build-debug/L04-2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Banje/CLionProjects/codility/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Banje/CLionProjects/codility/cmake-build-debug/Makefile&quot;  VERBOSE=1 L04-2"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Banje/CLionProjects/codility/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Banje/CLionProjects/codility/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Banje/CLionProjects/codility/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="L04-2/fast">
+				<Option output="C:/Users/Banje/CLionProjects/codility/cmake-build-debug/L04-2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Banje/CLionProjects/codility/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Banje/CLionProjects/codility/cmake-build-debug/Makefile&quot;  VERBOSE=1 L04-2/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Banje/CLionProjects/codility/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Banje/CLionProjects/codility/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Banje/CLionProjects/codility/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="L05-2">
+				<Option output="C:/Users/Banje/CLionProjects/codility/cmake-build-debug/L05-2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Banje/CLionProjects/codility/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Banje/CLionProjects/codility/cmake-build-debug/Makefile&quot;  VERBOSE=1 L05-2"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Banje/CLionProjects/codility/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Banje/CLionProjects/codility/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Banje/CLionProjects/codility/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="L05-2/fast">
+				<Option output="C:/Users/Banje/CLionProjects/codility/cmake-build-debug/L05-2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Banje/CLionProjects/codility/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Banje/CLionProjects/codility/cmake-build-debug/Makefile&quot;  VERBOSE=1 L05-2/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Banje/CLionProjects/codility/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Banje/CLionProjects/codility/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Banje/CLionProjects/codility/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Banje/CLionProjects/codility/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Banje/CLionProjects/codility/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Banje/CLionProjects/codility/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Banje/CLionProjects/codility/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Banje/CLionProjects/codility/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="C:/Users/Banje/CLionProjects/codility/cmake-build-debug"/>
 				<Option type="4"/>
@@ -307,6 +379,12 @@
 		</Unit>
 		<Unit filename="C:/Users/Banje/CLionProjects/codility/L03-3.c">
 			<Option target="L03-3"/>
+		</Unit>
+		<Unit filename="C:/Users/Banje/CLionProjects/codility/L04-2.c">
+			<Option target="L04-2"/>
+		</Unit>
+		<Unit filename="C:/Users/Banje/CLionProjects/codility/L05-2.c">
+			<Option target="L05-2"/>
 		</Unit>
 		<Unit filename="C:/Users/Banje/CLionProjects/codility/main.c">
 			<Option target="codility"/>

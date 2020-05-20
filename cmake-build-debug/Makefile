@@ -200,6 +200,32 @@ L03/fast:
 	$(MAKE) -f CMakeFiles\L03.dir\build.make CMakeFiles/L03.dir/build
 .PHONY : L03/fast
 
+#=============================================================================
+# Target rules for targets named L04-2
+
+# Build rule for target.
+L04-2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 L04-2
+.PHONY : L04-2
+
+# fast build rule for target.
+L04-2/fast:
+	$(MAKE) -f CMakeFiles\L04-2.dir\build.make CMakeFiles/L04-2.dir/build
+.PHONY : L04-2/fast
+
+#=============================================================================
+# Target rules for targets named L05-2
+
+# Build rule for target.
+L05-2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 L05-2
+.PHONY : L05-2
+
+# fast build rule for target.
+L05-2/fast:
+	$(MAKE) -f CMakeFiles\L05-2.dir\build.make CMakeFiles/L05-2.dir/build
+.PHONY : L05-2/fast
+
 L01.obj: L01.c.obj
 
 .PHONY : L01.obj
@@ -362,6 +388,60 @@ L03-3.c.s:
 	$(MAKE) -f CMakeFiles\L03-3.dir\build.make CMakeFiles/L03-3.dir/L03-3.c.s
 .PHONY : L03-3.c.s
 
+L04-2.obj: L04-2.c.obj
+
+.PHONY : L04-2.obj
+
+# target to build an object file
+L04-2.c.obj:
+	$(MAKE) -f CMakeFiles\L04-2.dir\build.make CMakeFiles/L04-2.dir/L04-2.c.obj
+.PHONY : L04-2.c.obj
+
+L04-2.i: L04-2.c.i
+
+.PHONY : L04-2.i
+
+# target to preprocess a source file
+L04-2.c.i:
+	$(MAKE) -f CMakeFiles\L04-2.dir\build.make CMakeFiles/L04-2.dir/L04-2.c.i
+.PHONY : L04-2.c.i
+
+L04-2.s: L04-2.c.s
+
+.PHONY : L04-2.s
+
+# target to generate assembly for a file
+L04-2.c.s:
+	$(MAKE) -f CMakeFiles\L04-2.dir\build.make CMakeFiles/L04-2.dir/L04-2.c.s
+.PHONY : L04-2.c.s
+
+L05-2.obj: L05-2.c.obj
+
+.PHONY : L05-2.obj
+
+# target to build an object file
+L05-2.c.obj:
+	$(MAKE) -f CMakeFiles\L05-2.dir\build.make CMakeFiles/L05-2.dir/L05-2.c.obj
+.PHONY : L05-2.c.obj
+
+L05-2.i: L05-2.c.i
+
+.PHONY : L05-2.i
+
+# target to preprocess a source file
+L05-2.c.i:
+	$(MAKE) -f CMakeFiles\L05-2.dir\build.make CMakeFiles/L05-2.dir/L05-2.c.i
+.PHONY : L05-2.c.i
+
+L05-2.s: L05-2.c.s
+
+.PHONY : L05-2.s
+
+# target to generate assembly for a file
+L05-2.c.s:
+	$(MAKE) -f CMakeFiles\L05-2.dir\build.make CMakeFiles/L05-2.dir/L05-2.c.s
+.PHONY : L05-2.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -395,7 +475,6 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... edit_cache
 	@echo ... codility
 	@echo ... L03-1
 	@echo ... L01
@@ -403,6 +482,9 @@ help:
 	@echo ... L02
 	@echo ... L03-3
 	@echo ... L03
+	@echo ... L04-2
+	@echo ... L05-2
+	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... L01.obj
 	@echo ... L01.i
@@ -422,6 +504,12 @@ help:
 	@echo ... L03-3.obj
 	@echo ... L03-3.i
 	@echo ... L03-3.s
+	@echo ... L04-2.obj
+	@echo ... L04-2.i
+	@echo ... L04-2.s
+	@echo ... L05-2.obj
+	@echo ... L05-2.i
+	@echo ... L05-2.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

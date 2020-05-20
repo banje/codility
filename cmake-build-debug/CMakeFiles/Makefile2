@@ -59,6 +59,8 @@ all: CMakeFiles/L03-2.dir/all
 all: CMakeFiles/L02.dir/all
 all: CMakeFiles/L03-3.dir/all
 all: CMakeFiles/L03.dir/all
+all: CMakeFiles/L04-2.dir/all
+all: CMakeFiles/L05-2.dir/all
 
 .PHONY : all
 
@@ -75,6 +77,8 @@ clean: CMakeFiles/L03-2.dir/clean
 clean: CMakeFiles/L02.dir/clean
 clean: CMakeFiles/L03-3.dir/clean
 clean: CMakeFiles/L03.dir/clean
+clean: CMakeFiles/L04-2.dir/clean
+clean: CMakeFiles/L05-2.dir/clean
 
 .PHONY : clean
 
@@ -85,7 +89,7 @@ clean: CMakeFiles/L03.dir/clean
 CMakeFiles/codility.dir/all:
 	$(MAKE) -f CMakeFiles\codility.dir\build.make CMakeFiles/codility.dir/depend
 	$(MAKE) -f CMakeFiles\codility.dir\build.make CMakeFiles/codility.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Banje\CLionProjects\codility\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target codility"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Banje\CLionProjects\codility\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target codility"
 .PHONY : CMakeFiles/codility.dir/all
 
 # Build rule for subdir invocation for target.
@@ -266,6 +270,60 @@ L03: CMakeFiles/L03.dir/rule
 CMakeFiles/L03.dir/clean:
 	$(MAKE) -f CMakeFiles\L03.dir\build.make CMakeFiles/L03.dir/clean
 .PHONY : CMakeFiles/L03.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/L04-2.dir
+
+# All Build rule for target.
+CMakeFiles/L04-2.dir/all:
+	$(MAKE) -f CMakeFiles\L04-2.dir\build.make CMakeFiles/L04-2.dir/depend
+	$(MAKE) -f CMakeFiles\L04-2.dir\build.make CMakeFiles/L04-2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Banje\CLionProjects\codility\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target L04-2"
+.PHONY : CMakeFiles/L04-2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/L04-2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Banje\CLionProjects\codility\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/L04-2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Banje\CLionProjects\codility\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/L04-2.dir/rule
+
+# Convenience name for target.
+L04-2: CMakeFiles/L04-2.dir/rule
+
+.PHONY : L04-2
+
+# clean rule for target.
+CMakeFiles/L04-2.dir/clean:
+	$(MAKE) -f CMakeFiles\L04-2.dir\build.make CMakeFiles/L04-2.dir/clean
+.PHONY : CMakeFiles/L04-2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/L05-2.dir
+
+# All Build rule for target.
+CMakeFiles/L05-2.dir/all:
+	$(MAKE) -f CMakeFiles\L05-2.dir\build.make CMakeFiles/L05-2.dir/depend
+	$(MAKE) -f CMakeFiles\L05-2.dir\build.make CMakeFiles/L05-2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Banje\CLionProjects\codility\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target L05-2"
+.PHONY : CMakeFiles/L05-2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/L05-2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Banje\CLionProjects\codility\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/L05-2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Banje\CLionProjects\codility\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/L05-2.dir/rule
+
+# Convenience name for target.
+L05-2: CMakeFiles/L05-2.dir/rule
+
+.PHONY : L05-2
+
+# clean rule for target.
+CMakeFiles/L05-2.dir/clean:
+	$(MAKE) -f CMakeFiles\L05-2.dir\build.make CMakeFiles/L05-2.dir/clean
+.PHONY : CMakeFiles/L05-2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
